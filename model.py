@@ -17,8 +17,8 @@ def operations(a,b,c):
     res=0
     if c=='+':res= a + b
     elif c=='-':res= a - b
-    elif c=='+':res= a * b
-    elif c=='+':res= a / b
+    elif c=='*':res= a * b
+    elif c=='/':res= a / b
     return res
   
 def transform_complex(x):
